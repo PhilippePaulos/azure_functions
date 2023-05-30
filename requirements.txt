@@ -5,3 +5,7 @@
 azure-functions
 azure-storage-blob
 redis
+numpy
+pandas
+haversine
+scipy
