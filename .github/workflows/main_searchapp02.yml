@@ -63,7 +63,7 @@ jobs:
         id: deploy-to-function
         with:
           app-name: 'searchapp02'
-          slot-name: 'Developement'
+#          slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D102260EBAF44E6BAD7D0D78A60BBCF0 }}
           scm-do-build-during-deployment: true
